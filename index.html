@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html>
+<title>วิทยาการคอมพิวเตอร์</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Sans Pro">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  html {
+  scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6 {font-family: "Roboto"}
+body {font-family: "Source Sans Pro"}
+</style>
+<body class="w3-light-white w3-margin">
+
+<!-- Navigation bar with links -->
+<div class="w3-bar w3-white w3-text-black">
+  <h2 class="w3-left w3-tag w3-pale-yellow w3-round">COMPUTER SCI</h2>
+  <a href="#Contact" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">ผลงาน</a>
+  <a href="#Activities" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">หลักสูตรที่เปิดสอน</a>
+  <a href="#Trainers" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">เกี่ยวกับสาขา</a>
+  <a href="#Home" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">หน้าแรก</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-medium w3-hide-large" style="margin-top:10px;" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div id="demo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-small">
+  <a href="#Home" class="w3-bar-item w3-button">HOME</a>
+  <a href="#Trainers" class="w3-bar-item w3-button">TRAINERS</a>
+  <a href="#Activities" class="w3-bar-item w3-button">ACTIVITIES</a>
+  <a href="#Contact" class="w3-bar-item w3-button">CONTACT</a>
+</div>
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" style="padding-bottom:32px;" id="Home">
+    <img class="w3-image" src="photo/welcome.jpg" alt="Photo by Jamie Street" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+    </div>
+  </header>
+
+  <!-- Grid / Trainers section -->
+  <div class="w3-row-padding" id="Trainers">
+    <div class="w3-center w3-padding-32">
+      <h2 class="w3-wide w3-center">ข่าวสาร</h2>
+    </div>
+
+
+    <div class="w3-third w3-margin-bottom">
+      <div>
+        
+        <div class="w3-container">
+          <h3>เชียงใหม่ทยอยนำผู้ป่วยโควิด-19 หญิง เข้ารักษาตัวที่ รพ.สนาม 2 ม.แม่โจ้</h3>
+          <p>เมื่อช่วงเย็นวานนี้ (15 เม.ย.64) เจ้าหน้าที่สาธารณสุขจังหวัดเชียงใหม่ ฝ่ายปกครอง เจ้าหน้าที่ของมหาวิทยาลัยแม่โจ้ และหน่วยงานที่เกี่ยวข้อง ได้เตรียมรับตัวผู้ป่วยโควิด-19 ที่เป็นผู้ป่วยหญิงจำนวน 50 คน ที่จะเป็นผู้ป่วยกลุ่มแรกที่จะเดินทางเข้ามาพักรักษาตัวที่โรงพยาบาลสนามแห่งที่ 2 ภายในศูนย์กีฬาเฉลิมพระเกียรติ มหาวิทยาลัยแม่โจ้ อำเภอสันทราย จังหวัดเชียงใหม่ หลังจากจังหวัดเชียงใหม่ประสานใช้สถานที่แห่งนี้ในการจัดตั้งเป็นโรงพยาบาลสนาม เพื่อรองรับผู้ป่วยที่จะผ่านกระบวนการทางการแพทย์จากโรงพยาบาลต่างๆ และโรงพยาบาลสนามศูนย์ประชุมและจัดแสดงสินค้านานาชาติเฉลิมพระเกียรติ 7 รอบพระชนมพรรษา เพื่อมารักษาต่อที่นี่</p>
+    
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div>
+        
+        <div class="w3-container">
+          <h3>
+            กระแสตื่น "กัญชง" พืชเศรษฐกิจตัวใหม่</h3>
+          
+          <p>หลังจากปลดล็อกเปิดโอกาสให้คนไทยสามารถขออนุญาตผลิต นำเข้า ส่งออก จำหน่าย หรือมีไว้ครอบครองซึ่งยาเสพติดให้โทษประเภท 5 เฉพาะ “กัญชง” (Hemp) เมื่อวันที่ 29 ม.ค.ที่ผ่านมา
+
+            ยังผลให้ “กัญชง” กลายเป็นพืชเศรษฐกิจชนิดใหม่ที่ชาวไทยให้ความสนใจกันอย่างมาก ไม่ว่าจะเป็นเกษตรกร ประชาชนทั่วไป รวมไปถึงผู้ประกอบการธุรกิจต่างขานรับกันอย่างคึกคักกับเป้าหมายนำไปเป็นวัตถุดิบและสารตั้งต้นเพื่อผลิตสินค้าประเภทต่างๆ ไม่ว่าจะเป็นอาหาร, เครื่องดื่ม, ยา, เครื่องสำอางและผลิตภัณฑ์อีกหลากหลายชนิด</p>
+         
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      
+        
+        <div class="w3-container">
+          <h3>รับสมัครรับนักศึกษา</h3>
+          <p>รับสมัครรับนักศึกษา มหาวิทยาลัยแม่โจ้ คณะวิทยาศาสตร์ สาขา วิทยาการคอมพิวเตอร์ TCASรอบ3</p>
+          <button class="w3-button w3-round w3-pale-red w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">ไฟล์เอกสาร</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Activities section -->
+  <div class="w3-white" id="Activities">
+    <div class="w3-container">
+      <div class="w3-center w3-padding-32">
+      <h2 class="w3-wide">ภาพกิจกรรม</h2>
+      </div>
+
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-third">
+          <img src="photo/11.JPG" alt="Photo by Humphrey Muleba" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>นักศึกษาสาขาวิชาฯเข้าร่วมงานการประชุมวิชาการวิทยาศาสตร์และเทคโนโลยี ครั้งที่ 17</b></p>
+            <p>รายละเอียด
+              คณะวิทยาศาสตร์ มหาวิทยาลัยแม่โจ้ จัดกิจกรรมการประชุมวิชาการวิทยาศาสตร์และเทคโนโลยี ครั้งที่ 17 โดยมีวัตถุประสงค์เพื่อให้นักศึกษาชั้นปีที่4 มีความรู้ ความสามารถที่เหมาะสมกับสาขาวิชาที่กำลังศึกษาอยู่ ที่เหมาะสมกับอาชีพในอนาคต และเพื่อพัฒนาให้นักศึกษามี</p>
+            <button class="w3-button w3-round w3-pale-red w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">อ่านต่อ</button>
+          </div>
+        </div>
+        <div class="w3-third">
+          <img src="photo/22.JPG" alt="Photo by Humphrey Muleba" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>ตัวแทนธนาคารไทยพาณิชย์ จำกัด (มหาชน) เข้าประชาสัมพันธ์บริษัทและสัมภาษณ์นักศึกษาปี4</b></p>
+            <p>ตัวแทนธนาคารไทยพาณิชย์ จำกัด (มหาชน) เข้ามาประชาสัมพันธ์บริษัทและสัมภาษณ์งานนักศึกษาชั้นปีที่4สาขาวิชาวิทยาการคอมพิวเตอร์</p>
+            <button class="w3-button w3-round w3-pale-red w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">อ่านต่อ</button>
+          </div>
+        </div>
+        <div class="w3-third">
+          <img src="photo/33.jpg" alt="Photo by Marcos Ferreira" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>
+              สาขาวิชาวิทยาการคอมพิวเตอร์ จัดโครงการส่งเสริมคุณธรรมจริยธรรมบำเพ็ญประโยชน์แก่ชุมชนสาขาวิชาฯ</b></p>
+            <p>สาขาวิชาวิทยาการคอมพิวเตอร์ จัดโครงการส่งเสริมคุณธรรมจริยธรรมบำเพ็ญประโยชน์แก่ชุมชนสาขาวิชาวิทยาการคอมพิวเตอร์ โดยมีวัตถุประสงค์เพื่อส่งเสริมและพัฒนาคุณธรรม จริยธรรมและความสามัคคี ในการปฏิบัติงานร่วมกับผู้อื่น เพื่อสร้างลักษณะนิสัยที่ดีสำหรับนักศึกษา</p>
+            <button class="w3-button w3-round w3-pale-red w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">อ่านต่อ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Contact -->
+<div class="w3-white" id="Contact">
+  <div class="w3-container w3-padding-32">
+    <div class="w3-center w3-padding-32">
+<h2 class="w3-wide">CONTACT</h2>
+
+</form>
+</div>
+</div>
+
+
+<footer>
+  <h1>ติดต่อเรา</h1>
+  <ul style="list-style-type: square;">
+    <li>เบอร์โทรศัพติดต่อ +6653873890-3</li>
+    <li>สถานที่ติดต่อ มหาวิทยาลัยแม่โจ้ หมู่4 อำเภอสันทราย จังหวัดเชียงใหม่ 50290</li>
+    
+  </ul>
+</footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
